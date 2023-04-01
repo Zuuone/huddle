@@ -1,0 +1,249 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  position: relative;
+  width: 395px;
+  height: 800px;
+  background: #684bb1;
+}
+
+.mobile_style {
+  width: 395px;
+  height: 385px;
+}
+
+.desktop_style {
+  display: none;
+}
+
+.logo_style {
+  position: absolute;
+  left: 40px;
+  top: 38.2px;
+  height: 29px;
+}
+
+.illustration {
+  position: absolute;
+  top: 127px;
+  left: 40px;
+  width: 315px;
+}
+
+.heading {
+  position: absolute;
+  top: 396px;
+  left: 48px;
+  width: 280px;
+  height: 72px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #fff;
+}
+
+.para {
+  position: absolute;
+  top: 484px;
+  left: 36px;
+  width: 304px;
+  height: 120px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+}
+
+.btn {
+  position: absolute;
+  top: 628px;
+  left: 88px;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #684bb1;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.269022);
+}
+
+.facebook_logo {
+  position: absolute;
+  top: 740px;
+  left: 136px;
+  width: 28px;
+  height: 27px;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(259deg)
+    brightness(101%) contrast(107%);
+}
+
+.twitter_logo {
+  position: absolute;
+  top: 740px;
+  left: 174px;
+  width: 28px;
+  height: 27px;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(259deg)
+    brightness(101%) contrast(107%);
+}
+
+.insta_logo {
+  position: absolute;
+  top: 740px;
+  left: 212px;
+  width: 28px;
+  height: 27px;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(259deg)
+    brightness(101%) contrast(107%);
+  /* background-color: #fff; */
+}
+
+@media screen and (min-width: 1440px) {
+  .main {
+    position: relative;
+    width: 1440px;
+    height: 800px;
+    background: #684bb1;
+  }
+
+  .mobile_style {
+    display: none;
+    width: 395px;
+    height: 385px;
+  }
+
+  .desktop_style {
+    display: block;
+  }
+
+  .logo_style {
+    position: absolute;
+    left: 80px;
+    top: 64px;
+
+    height: 60px;
+  }
+
+  .illustration {
+    position: absolute;
+    top: 190px;
+    left: 80px;
+    width: 700px;
+    height: 510px;
+  }
+
+  .heading {
+    position: absolute;
+    top: 232px;
+    left: 835px;
+    width: 487px;
+    height: 120px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: left;
+    color: #fff;
+  }
+
+  .para {
+    position: absolute;
+    top: 376px;
+    left: 835px;
+    width: 520px;
+    height: 81px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
+    color: #fff;
+  }
+
+  .btn {
+    position: absolute;
+    top: 481px;
+    left: 835px;
+    width: 200px;
+    height: 56px;
+    border-radius: 20px;
+    border: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #684bb1;
+    box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.258633);
+  }
+
+  .facebook_logo {
+    position: absolute;
+    top: 720px;
+    left: 1208px;
+    width: 40px;
+    height: 40px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(259deg)
+      brightness(101%) contrast(107%);
+  }
+
+  .twitter_logo {
+    position: absolute;
+    top: 720px;
+    left: 1264px;
+    width: 40px;
+    height: 40px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(259deg)
+      brightness(101%) contrast(107%);
+  }
+
+  .insta_logo {
+    position: absolute;
+    top: 720px;
+    left: 1320px;
+    width: 40px;
+    height: 40px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(259deg)
+      brightness(101%) contrast(107%);
+    /* background-color: #fff; */
+  }
+
+  .btn:hover {
+    cursor: pointer;
+    background: #e880e8;
+    box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.258633);
+  }
+  .facebook_logo:hover,
+  .insta_logo:hover,
+  .twitter_logo:hover {
+    cursor: pointer;
+    filter: invert(52%) sepia(90%) saturate(2748%) hue-rotate(293deg)
+      brightness(101%) contrast(101%);
+  }
+}
